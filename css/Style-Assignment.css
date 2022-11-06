@@ -1,0 +1,212 @@
+@font-face {
+    font-family: Raleway;
+    src: url("../Fonts/Raleway/Raleway-Regular.ttf") format("truetype");
+}
+@font-face {
+        font-family: Brush;
+    src: url("../Fonts/Brush/WaterBrush-Regular.ttf") format("truetype");
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+body {
+    margin: 0;
+    font-family: Raleway, Verdana, "sans-serif";
+
+}
+header {
+    background-color: #4E944F;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+    margin: 0;
+}
+h1 {
+    width: 25%;
+    font-family: Brush, Verdana, "sans-serif";
+    margin: 0
+}
+nav {
+    width: 75%;
+    margin: 0;
+    padding: 0;
+}
+ol {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    border-bottom: 2px #4E944F solid;
+}
+li{
+    width: calc(100% / 3);
+}
+li a {
+    background-color: #86bb7b;
+    color: black;
+    height: 6rem;
+    display: block;
+    font-size: 1.5rem;
+    text-align: center;
+    line-height: 6rem;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a:hover {
+    background-color: #B4FF9F;
+}
+
+main {
+    background-color: #83BD75;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1021%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(131%2c 189%2c 117%2c 0.67)'%3e%3c/rect%3e%3cpath d='M290.85 108.65 a131.4 131.4 0 1 0 262.8 0 a131.4 131.4 0 1 0 -262.8 0z' fill='rgba(78%2c 148%2c 79%2c 0.3)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M558.16%2c366.427C589.647%2c368.333%2c625.229%2c364.688%2c641.678%2c337.771C658.591%2c310.095%2c647.535%2c275.397%2c630.747%2c247.645C614.662%2c221.056%2c589.231%2c200.298%2c558.16%2c199.713C526.137%2c199.11%2c495.57%2c216.462%2c480.684%2c244.821C466.675%2c271.51%2c474.301%2c303.197%2c490.497%2c328.618C505.377%2c351.973%2c530.519%2c364.753%2c558.16%2c366.427' fill='rgba(78%2c 148%2c 79%2c 0.3)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M914.22 81.44 a153.53 153.53 0 1 0 307.06 0 a153.53 153.53 0 1 0 -307.06 0z' fill='rgba(78%2c 148%2c 79%2c 0.3)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M1182.52 47.69 a150.45 150.45 0 1 0 300.9 0 a150.45 150.45 0 1 0 -300.9 0z' fill='rgba(78%2c 148%2c 79%2c 0.3)' class='triangle-float1'%3e%3c/path%3e%3cpath d='M1142.35 285.46 a100.63 100.63 0 1 0 201.26 0 a100.63 100.63 0 1 0 -201.26 0z' fill='rgba(78%2c 148%2c 79%2c 0.3)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M536.15%2c250.532C592.562%2c253.815%2c647.745%2c227.261%2c677.251%2c179.069C708.054%2c128.758%2c710.433%2c65.099%2c680.975%2c13.989C651.481%2c-37.184%2c595.213%2c-66.157%2c536.15%2c-65.743C477.816%2c-65.334%2c420.946%2c-36.152%2c394.801%2c15.996C370.714%2c64.04%2c393.149%2c118.117%2c420.891%2c164.148C447.453%2c208.222%2c484.778%2c247.542%2c536.15%2c250.532' fill='rgba(78%2c 148%2c 79%2c 0.3)' class='triangle-float3'%3e%3c/path%3e%3cpath d='M384.986%2c60.91C407.348%2c60.315%2c426.582%2c46.774%2c437.945%2c27.505C449.514%2c7.887%2c452.792%2c-15.942%2c442.194%2c-36.101C430.856%2c-57.669%2c409.348%2c-72.742%2c384.986%2c-73.238C359.793%2c-73.751%2c335.905%2c-60.502%2c323.593%2c-38.517C311.539%2c-16.993%2c313.952%2c9.466%2c326.913%2c30.457C339.221%2c50.39%2c361.567%2c61.533%2c384.986%2c60.91' fill='rgba(78%2c 148%2c 79%2c 0.3)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1021'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+section {
+    width: auto;
+    height: 65rem;
+    align-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+}
+.third{
+    height: 100rem;
+}
+
+section h2 {
+    width: 100%;
+    font-size: 2rem;
+    display: block;
+    text-align: center;
+    margin: 6rem 0 0 0;
+}
+article {
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    padding: 1rem;
+}
+
+section article figure img {
+    width: 30%;
+    margin: 1rem 0 0 0;
+}
+
+img {
+    border-radius: 18px 18px 18px 18px;
+    width: 80%;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    flex-wrap: inherit;
+    width: 100%;
+    margin: 0;
+}
+
+ul li {
+    text-align: center;
+    width: 100%;
+    margin: 0 0.15rem 0 0.15rem;
+    border: 3px #E9EFC0 solid;
+    border-radius: 10px;
+    padding: 0.8rem 0.5rem 0.5rem 0.5rem;
+}
+
+ul li a img {
+    text-align: center;
+    width: 100%;
+}
+ul li p{
+    text-align: justify;
+
+}
+figure figcaption{
+    padding: 0;
+    margin: 1rem 0 1rem 0;
+}
+footer {
+    padding: 1rem;
+    text-align: left;
+    display: flex;
+    width: 100%;
+}
+
+section footer article iframe {
+    border-radius: 18px;
+}
+section footer article p {
+    text-align: left;
+    margin: 0.9rem 0 0.5rem 0;
+    padding: 0;
+    font-size: 0.8rem;
+    height: 2rem;
+}
+section footer article p img{
+    border-radius: 0.2rem;
+    margin: 0;
+    padding: 0;
+    width: 2rem;
+    height: 2rem;
+    float: left;
+}
+h4 {
+    text-align: center;
+    font-size: 120%;
+    margin: 1rem 0 0 0 ;
+}
+@media screen and (min-width: 769px) {
+    .container {
+        width: 70%;
+    }
+
+    header {
+        width: 70%
+    }
+
+    h1 {
+        width: 25%;
+    }
+
+    nav {
+        width: 75%;
+    }
+
+    ol {
+        width: 100%;
+    }
+
+    li {
+        width: calc(100% / 3);
+    }
+    section h2 {
+        font-size: 3rem;
+    }
+    section footer article p {
+        font-size: 1.4rem;
+    }
+    section footer article iframe {
+        width: 25rem;
+        height: 25rem;
+
+    }
+}
